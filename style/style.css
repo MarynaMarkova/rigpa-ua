@@ -19,15 +19,12 @@ body {
   text-align: center;
 }
 
-.manuskript {
-  border-radius: 7px;
-}
 
 .navigation-links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .door {
@@ -55,11 +52,13 @@ body {
 
 img {
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 400px !important;
 }
 
 .door:hover {
-  background-color: #5b543e;
+  /* background-color: #5b543e; */
+  background-color: #baa163;
+  color: rgb(18, 15, 34);
   transform: translateY(-5px);
 }
 
@@ -71,7 +70,7 @@ img {
 
 h1 {
   font-size: 28px;
-}
+
 
 footer {
   color: rgb(124, 139, 158);
