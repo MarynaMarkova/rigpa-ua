@@ -1,0 +1,100 @@
+body {
+  background-image: url("../img/starry-night.jpg");
+  text-align: center !important;
+}
+
+.main {
+  max-width: 800px !important;
+  margin: 40px auto !important;
+}
+
+.container {
+  background-color: rgb(4, 1, 19);
+  color: white;
+  padding: 30px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.manuskript {
+  border-radius: 7px;
+}
+
+.navigation-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 3rem;
+}
+
+.door {
+  background-color: rgba(18, 15, 34, 0.658);
+  padding: 20px 0;
+  border-radius: 15px;
+  width: 200px;
+  border: 1px solid aqua;
+  margin: 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(149, 188, 240);
+  font-family: "Alegreya SC", serif;
+  transition: all 0.4s ease-in-out;
+  animation: scaleAnim 1s ease-in-out;
+}
+@keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+}
+
+img {
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.door:hover {
+  background-color: #5b543e;
+  transform: translateY(-5px);
+}
+
+.author {
+  font-family: "Alegreya SC", serif;
+  text-align: center;
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+footer {
+  color: rgb(124, 139, 158);
+  text-align: center;
+}
+
+footer a {
+  color: rgb(124, 139, 158);
+}
+.PhotoBy {
+  font-size: 8px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .navigation-links {
+    grid-template-columns: 1fr;
+    margin: 20 auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .door {
+    margin: 0 auto;
+  }
+}
