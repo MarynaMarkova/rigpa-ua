@@ -19,7 +19,6 @@ body {
   text-align: center;
 }
 
-
 .navigation-links {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -70,7 +69,7 @@ img {
 
 h1 {
   font-size: 28px;
-
+}
 
 footer {
   color: rgb(124, 139, 158);
